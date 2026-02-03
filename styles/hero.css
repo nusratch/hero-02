@@ -1,5 +1,11 @@
 .btn{
-    color: color-mix(in srgb, color percentage, color percentage);
+   background-color: transparent;
+   color: rgb(53, 209, 14);
+    cursor: pointer;
+  border-radius: 10000px;
+   border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
 }
 .gradient-btn{
     background: linear-gradient(45deg, #ff4ecd, #7f00ff);
@@ -8,14 +14,22 @@
   padding: 12px 24px;
   border-radius: 8px;
   cursor: pointer;
+  border-radius: 10000px;
+
 }
 .navbar {
-    max-width: 1140px;
+    max-width: 97.2%;
     margin: auto;
-    padding: 28px 0;
+    padding: 28px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(4, 4, 90, 0.616);
+    display: flex;
+    width: 2200px;
+    color: white;
+   
+
 }
 nav .menu {
     display: flex;
@@ -26,6 +40,56 @@ nav .menu {
     margin: 0 auto;
     padding: 0;
 }
-.span{
-    background: linear-gradient(45deg, #ff4ecd, #7f00ff);
+.tech1{
+    color: linear-gradient(45deg, #ff4ecd, #7f00ff);
+    font-weight: bold;
+    font-size: xx-large;
 }
+.tech{
+    font-weight: bold;
+    color: white;
+    font-size: xx-large;
+}
+
+
+.font-oswald  {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.banner{
+    background-image:url('/assets/hero-bg02.png');
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-size: cover;
+background-position:center;
+max-width: 100%;
+}
+.hero-circle{
+    align-items: center;
+  
+    width: 350px;
+}
+.hero-content h1{
+    margin-bottom: 12px;
+
+}
+}
+.hero-content p{
+    max width: 16px;
+    margin-bottom: 20px;
+
+}
+.about-container{
+    flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 80px 40px 80px 40px;
+background-color: darkblue;
+}
+
+
