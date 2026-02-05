@@ -44,11 +44,13 @@ nav .menu {
     color: linear-gradient(45deg, #ff4ecd, #7f00ff);
     font-weight: bold;
     font-size: xx-large;
+    font-style: normal;
 }
 .tech{
     font-weight: bold;
     color: white;
     font-size: xx-large;
+    font-style: normal;
 }
 
 
@@ -87,9 +89,44 @@ max-width: 100%;
     flex-direction: row;
 justify-content: flex-start;
 align-items: center;
-gap: 24;
-padding: 80px 40px 80px 40px;
-background-color: darkblue;
+padding: 80px 200px 200px 200px;
+background-color: rgb(8, 8, 105);
+color: white;
+}
+.about-container h2{
+align-items: center;
+justify-content: center;
+}
+
+.card-container{
+  
+    display: grid;
 }
 
 
+.footer-social{
+
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 30000px;
+  justify-content: flex-start;
+text-align: center;
+display: inline;
+
+
+
+}
+
+.footer{
+    background-image: url('/assets/footer-bg.png');
+    color: white;
+    font-style: normal;
+    
+}
+.footer-copy{
+    align-items: center;
+     justify-content: center;
+        text-align: center;
+        padding: 80px 80px 80px 80px;
+        justify-content: flex-start;
+}
